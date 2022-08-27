@@ -6,6 +6,5 @@ const loadQuote = () => {
 
 const displayQuote = (quote) => {
   const blockQuote = document.getElementById("quote");
-  console.log(quote);
   blockQuote.innerText = quote.quote;
 };
